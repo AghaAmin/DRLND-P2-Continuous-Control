@@ -28,6 +28,7 @@ The parameters for this project are:
 
 
 The reached the average score of 30 at 102 episodes and became stable before 40 episode:
+
 ![alt text](https://github.com/AghaAmin/DRLND-P2-Continuous-Control/blob/master/images/result.png)
 
 

@@ -27,7 +27,7 @@ The parameters for this project are:
 | WEIGHT_DECAY  | 1e-5  | L2 weight decay used in the Critic Adam optimizer |
 
 
-The reached the average score of 30 at 102 episodes and became stable before 40 episode:
+The average score of 30 was reached at 102 episodes:
 
 ![alt text](https://github.com/AghaAmin/DRLND-P2-Continuous-Control/blob/master/images/result.png)
 

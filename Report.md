@@ -32,4 +32,4 @@ The reached the average score of 30 at 102 episodes and became stable before 40 
 
 
 ## 6. Future Work
-For the Future, D4PG, TRPO, and PPO will be implemented.
+In the Future, D4PG, TRPO, and PPO will be implemented.

@@ -25,7 +25,7 @@ LR_CRITIC = 1e-4        # learning rate of the critic for the Adam optimizer\
 WEIGHT_DECAY = 0.00001  # L2 weight decay used in the Critic Adam optimizer
 
 The reached the average score of 30 at 102 episodes and became stable before 40 episode:
-![alt text](https://github.com/AghaAmin/DRLND-P2-Continuous-Control/tree/master/images/result.png)
+![alt text](https://github.com/AghaAmin/DRLND-P2-Continuous-Control/blob/master/images/result.png)
 
 
 ## 6. Future Work

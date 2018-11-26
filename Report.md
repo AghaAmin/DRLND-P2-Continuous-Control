@@ -16,13 +16,16 @@ For stable learning, the following methods were used: gradient clipping to preve
 ## The Training Parameters and Result:
 The parameters for this project are:
 
-BUFFER_SIZE = int(1e5)  # replay buffer size\
-BATCH_SIZE = 128        # replay buffer minibatch size\
-GAMMA = 0.99            # discount factor\
-TAU = 1e-3              # for soft update of target parameters\
-LR_ACTOR = 1e-4         # learning rate of the actor for the Adam optimizer \
-LR_CRITIC = 1e-4        # learning rate of the critic for the Adam optimizer\
-WEIGHT_DECAY = 0.00001  # L2 weight decay used in the Critic Adam optimizer
+| Parameter     | Value     | Description |
+| ------------- | --------- | ------------- |
+| BUFFER_SIZE  | 1e5  |  replay buffer size |
+| BATCH_SIZE  | 128  | replay buffer minibatch size|
+| GAMMA  | 0.99  | discount factor |
+| TAU  | 1e-3  | for soft update of target parameters |
+| LR_ACTOR  | 1e-4  | learning rate of the actor used in the Adam optimizer |
+| LR_CRITIC  | 1e-4  | learning rate of the critic used in the Adam optimizer |
+| WEIGHT_DECAY  | 1e-5  | L2 weight decay used in the Critic Adam optimizer |
+
 
 The reached the average score of 30 at 102 episodes and became stable before 40 episode:
 ![alt text](https://github.com/AghaAmin/DRLND-P2-Continuous-Control/blob/master/images/result.png)
